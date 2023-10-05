@@ -41,7 +41,7 @@ class StreamsController {
 
             res.status(200).json({ 
                 message: 'Chuyển đổi hoàn tất' ,
-                fileLink: `http://localhost:3000/etravel/live/hls/${req.query.fileName}}/playlist.m3u8`
+                fileLink: `http://localhost:3000/etravel/live/hls/${req.query.fileName}/playlist.m3u8`
             });
         })
         .on('error', (err) => {

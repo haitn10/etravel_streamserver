@@ -2,7 +2,7 @@
   "name": "etravel_streamserver",
   "version": "1.0.0",
   "description": "NodeJs Stream Server For Etralvel Application",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
